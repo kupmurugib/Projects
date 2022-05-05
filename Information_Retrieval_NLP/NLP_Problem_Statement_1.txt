@@ -1,0 +1,11 @@
+Link to the Dataset: https://www.kaggle.com/seriousran/appletwittersentimenttexts
+
+Description of Data: Dataset, consists of text reviews and sentiments.
+
+
+Download the file and set it as a Dataframe.
+Remove punctuations, special characters and stopwords from the text column. Convert the text to lower case.
+Create two objects X and y. X will be the 'Review' column dataframe and y will be the “Sentiment” column. create a CountVectorizer object and split the data into training and testing sets. Train a MultinomialNB model and Display the confusion Matrix
+Display the POS tagging on the first 4 rows of ‘Review’
+Build and display a dependency parser tree for the sentence:
+“He is one of the five black brothers who sit in judgment of Jon Snow for his actions during his time with the wildlings.”
