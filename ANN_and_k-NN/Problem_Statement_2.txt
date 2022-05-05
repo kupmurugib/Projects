@@ -1,0 +1,72 @@
+PROBLEM STATEMENT for ANN:
+
+Dataset Link - advertising-1.csv Download advertising-1.csv
+
+In this assignment you will be working with a dummy advertising data set, indicating whether or not a particular internet user clicked on an Advertisement on a company website. you will try to create a model that will predict whether or not they will click on an ad based on the features of that user.
+
+This data set contains the following features:
+
+* 'Daily Time Spent on Site': consumer time on site in minutes
+
+* 'Age': customer age in years
+
+* 'Area Income': Avg. Income of geographical area of consumer
+
+* 'Daily Internet Usage': Avg. minutes a day consumer is on the internet
+
+* 'Ad Topic Line': Headline of the advertisement
+
+* 'City': City of consumer
+
+* 'Male': Whether or not consumer was male
+
+* 'Country': Country of consumer
+
+* 'Timestamp': Time at which consumer clicked on Ad or closed window
+
+* 'Clicked on Ad': 0 or 1 indicated clicking on Ad
+
+For the dataset (Advertising dataset), implement the ANN classifier using Keras in Python. [5M]
+
+Dataset: Advertising Dataset.csv
+
+The marks distribution are as follows:
+
+Import the libraries and Load the dataset and Remove/replace missing values (if any) [1M]
+Split features and labels [0.5M]
+Split train and test data [0.5M]
+Implement ANN Classifier using Keras [2M]
+Calculate accuracy measures [1M]
+Justify model.
+
+For any Queries on this question, Contact: sanjjayyp@wilp.bits-pilani.ac.in
+
+PROBLEM STATEMENT for K-NN:
+
+The given dataset is composed of a range of biomedical voice measurements from 31 people, 23 with Parkinson's disease (PD). Each column in the table is a particular voice measure, and each row corresponds one of 195 voice recording from these individuals ("name" column). The main aim of the data is to discriminate healthy people from those with Parkinson's Disease, according to "status" column which is set to 0 for healthy and 1 for PD.  Dataset can be downloaded from below link.
+
+https://archive.ics.uci.edu/ml/datasets/parkinsons
+
+Create classification model using KNN.  Identify the optimum no of neighbors and dimensions for your model.
+
+Justify if KNN model should be considered or not for the problem statement.
+
+evaluation will be based on..
+
+1)  Handling of missing values, outliers, if any .
+
+2)  Identifying data and model issues if any.
+
+3) Choice of packages and distance measure used. justify your answer.
+
+4) Selection of train, test split.
+
+5) Final model creation and accuracy matrix selected for the model.
+
+6) Future scope of the work.  
+
+For any Queries on this question, Contact: mrath@wilp.bits-pilani.ac.in
+
+Data is available in .data extension. 
+
+ Note:: Implementation of different models on divergent datasets will help you in understanding the advantages and disadvantages of the application of these noisy ML models in real-time situations.  It helps you as part of the preparation for compre exam too.
