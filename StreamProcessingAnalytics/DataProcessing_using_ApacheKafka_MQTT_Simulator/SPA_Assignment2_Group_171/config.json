@@ -1,0 +1,24 @@
+{"driver": {
+
+"driving-patterns" : [
+{"name" : "normal", "min-speed" : 35, "max-speed" : 75, "spree-frequency" : 60, "spree-length" : 5, "violation-percentage" : 50},
+{"name" : "speedy", "min-speed" : 50, "max-speed" : 100, "spree-frequency" : 15, "spree-length" : 10, "violation-percentage" : 65},
+{"name" : "risky", "min-speed" : 35, "max-speed" : 75, "spree-frequency" : 45, "spree-length" : 15, "violation-percentage" : 80},
+{"name" : "very-risky", "min-speed" : 55, "max-speed" : 105, "spree-frequency" : 20, "spree-length" : 40, "violation-percentage" : 95}
+  ],
+
+"special-drivers" : [
+{"id" : 1, "name" : "Edgar Orendain", "pattern" : "speedy"},
+{"id" : 2, "name" : "Rafael Coss", "pattern" : "very-risky"},
+{"id" : 3, "name" : "James Medel", "pattern" : "risky"},
+{"id" : 4, "name" : "Ana Castro", "pattern" : "speedy"},
+{"id" : 5, "name" : "George De Leon", "pattern" : "normal"},
+{"id" : 6, "name" : "Robert Hryniewicz", "pattern" : "normal"},
+{"id" : 7, "name" : "Mushtaq Rizvi", "pattern" : "normal"},
+{"id" : 8, "name" : "Robert Molina", "pattern" : "normal"},
+{"id" : 9, "name" : "Oksana Walton", "pattern" : "very-risky"},
+{"id" : 10, "name" : "Kait Disney-Leugers", "pattern" : "speedy"}
+]
+
+}
+}

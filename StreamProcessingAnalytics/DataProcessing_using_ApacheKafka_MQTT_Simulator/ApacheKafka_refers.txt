@@ -1,0 +1,115 @@
+
+
+
+
+
+Start Mosquitto Broker  - https://mosquitto.org/man/mosquitto-8.html - SERVICE IS ALREADY RUNNING on LOCAL
+D:\BITS\DataScience09092020\DataScience\BITS\Semester3\Assignments\SPA\Assignment2\Code\trucking-iot\simulator\src\main\resources
+
+
+
+https://www.eclipse.org/forums/index.php/t/1073338/
+
+http://www.steves-internet-guide.com/multiple-client-connections-python-mqtt/
+
+
+Start ZK
+
+D:\Confluent\confluent-6.2.0\bin\windows>zookeeper-server-start.bat D:\Confluent\confluent-6.2.0\etc\kafka\zookeeper.properties
+
+Start Broker
+D:\Confluent\confluent-6.2.0\bin\windows>kafka-server-start.bat D:\Confluent\confluent-6.2.0\etc\kafka\server.properties
+
+drive/MyDrive/Image_captioning_Dataset/Flicker8k_Dataset/test/test_image1.jpg
+
+Created topic
+
+###D:\Confluent\confluent-6.2.0\bin\windows>kafka-topics.bat --create --topic test1 --partitions 3 --replication-factor 1 --bootstrap-server localhost:2181
+
+D:\Confluent\confluent-6.2.0\bin\windows>kafka-topics.bat --create --topic test1 --partitions 1 --replication-factor 1 --bootstrap-server localhost:9092
+
+kafka-topics.bat --create --topic tripData --partitions 1 --replication-factor 1 --bootstrap-server localhost:9092
+
+
+Start Producer
+D:\Confluent\confluent-6.2.0\bin\windows>kafka-console-producer.bat --topic test1 --broker-list localhost:9092 
+
+kafka-console-producer.bat --topic tripData --broker-list localhost:9092
+
+
+Start Consumer
+D:\Confluent\confluent-6.2.0\bin\windows>kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test3 --from-beginning
+
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic tripData --from-beginning
+
+
+Transfer the message now 
+
+
+
+CLI help 
+
+
+D:\Confluent\confluent-6.2.0\bin\windows>kafka-topics.bat --create --topic test1 --partitions 1 --replication-factor 1 --bootstrap-server localhost:9092
+Error while executing topic command : Topic 'test1' already exists.
+[2021-09-01 21:45:56,545] ERROR org.apache.kafka.common.errors.TopicExistsException: Topic 'test1' already exists.
+ (kafka.admin.TopicCommand$)
+
+D:\Confluent\confluent-6.2.0\bin\windows>kafka-topics.bat --create --topic test2 --partitions 3 --replication-factor 1 --bootstrap-server localhost:9092
+Error while executing topic command : Topic 'test2' already exists.
+[2021-09-01 21:46:10,443] ERROR org.apache.kafka.common.errors.TopicExistsException: Topic 'test2' already exists.
+ (kafka.admin.TopicCommand$)
+
+D:\Confluent\confluent-6.2.0\bin\windows>kafka-topics.bat --create --topic test3 --partitions 3 --replication-factor 1 --bootstrap-server localhost:9092
+Created topic test3.
+
+D:\Confluent\confluent-6.2.0\bin\windows>kafka-topics.bat --zookeeper localhost:2181 --list
+__consumer_offsets
+_confluent-license
+test1
+test2
+test3
+
+D:\Confluent\confluent-6.2.0\bin\windows>
+
+
+
+
+python D:\BITS\DataScience09092020\DataScience\BITS\Semester3\Assignments\SPA\Assignment2\mqtt\subscribe_multi_2.py
+
+
+VIsualization
+
+https://simon-aubury.medium.com/machine-learning-kafka-ksql-stream-processing-bug-me-when-ive-left-the-heater-on-bd47540cd1e8
+
+
+
+Kafka Producer Consumer COde 
+
+https://www.youtube.com/watch?v=HIz0pUXhM3U
+
+
+https://grafana.com/docs/grafana/latest/installation/windows/
+https://grafana.com/grafana/download?platform=windows&edition=oss
+
+
+---------------------------------------
+MQTT
+Start MQ Broker Service
+Start trip 1, 2 , ...
+
+
+Kafka
+Start ZK 
+Start Broker
+Start Consumer 
+
+Run D:\BITS\DataScience09092020\DataScience\BITS\Semester3\Assignments\SPA\Assignment2\mqtt\subscribe_multi_withkafka.py  ( this will get trip data from MQTT and put it in Kafka topic using producer code )
+D:\BITS\DataScience09092020\DataScience\BITS\Semester3\Assignments\SPA\Assignment2\mqtt\kafkaConsumer_topictoDB.py
+
+
+D:\BITS\DataScience09092020\DataScience\BITS\Semester3\Assignments\SPA\Assignment2\mqtt>initiate_trip.py 1 VHCL01 RT01
+C:\Program Files\GrafanaLabs\grafana\bin>grafana-cli.exe plugins install pr0ps-trackmap-panel
+
+----------------------------------------
+ 

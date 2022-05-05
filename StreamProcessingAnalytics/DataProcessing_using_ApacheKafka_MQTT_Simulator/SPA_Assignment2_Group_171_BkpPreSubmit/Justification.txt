@@ -1,0 +1,1 @@
+While processing the sensor data from trucks , if the speed of the truck exceeding 80 miles/hr it is considered as over speeding truck. Also, tracking truck's over speeding count during the trip and also from the previous trips.
