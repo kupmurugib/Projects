@@ -1,0 +1,9 @@
+Find the data set at the following link: https://www.kaggle.com/paultimothymooney/cvpr-2019-papers (Links to an external site.) (consider only .txt files)
+
+Load the data set and import necessary libraries (1 Mark)
+Perform the vectorization process                              (1 Mark)
+Compute TF and TF-IDF factors                (1Mark)
+Demonstrate text classification by using Rocchio algorithm(use scikit). Compare the cosine similarity  (2 Marks)
+Test the performance of the Rocchio algorithm on the test set. (1 Mark)
+Perform the stemming process on the data set and compare the performance with the previous process. (You can choose a stemmer of your choice) (2Marks)
+Compare the performance of Rocchio algorithm with any one of the other classification algorithms of your choice(2 Marks)
