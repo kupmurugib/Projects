@@ -1,0 +1,36 @@
+Instructions
+Follow the instructions in each question carefully.
+A Jupyter notebook along with output for each cell is expected.
+Any assignment submitted using  other python IDEs are not considered for grading.
+Use appropriate labels for all visualizations.
+Upload the output.csv file along with the notebook when required.
+If dataset link is expired, search for the same dataset online from any repository and use it.
+
+
+Question 1
+
+Consider data published on n = 27 leukemia patients. The data (leukemia_remission.csv) has a response variable of whether leukemia remission occurred (REMISS), which is given by a 1.
+
+The predictor variables are cellularity of the marrow clot section (CELL), smear differential percentage of blasts (SMEAR), percentage of absolute marrow leukemia cell infiltrate (INFIL), percentage labeling index of the bone marrow leukemia cells (LI), absolute number of blasts in the peripheral blood (BLAST), and the highest temperature prior to start of treatment (TEMP).
+
+Import the dataset from https://newonlinecourses.science.psu.edu/stat501/sites/onlinecourses.science.psu.edu.stat501/files/data/leukemia_remission/index.txt  (Links to an external site.)(Hint: Convert txt to csv for ease of use.)
+Extract X as all columns except the first column and Y as first column. 
+Visualize the dataset. 
+Split the data into training set and testing set.  Perform 10-fold cross validation.
+Train a Logistic regression model for the dataset. 
+Display the coefficients and form the logistic regression equation. 
+Compute the accuracy and confusion matrix. 
+Display the correlation between all the attributes.
+
+
+Question 2
+The following dataset is used to classify the car acceptability into classes: unacceptable, acceptable, good and very good.
+
+Import the data dataset from https://archive.ics.uci.edu/ml/machine-learning-databases/car/ (Links to an external site.)
+Extract X as all columns except the last column and Y as last column. 
+Visualize the dataset using any two appropriate graphs. 
+Visualize the correlation between all the variables of dataset. 
+Split the data into training set and testing set.Perform 10-fold cross validation.
+Train a Logistic regression model for the dataset.
+Compute the accuracy and confusion matrix.
+Predict and display the class label of a car with following attributes : buying, maint, doors, persons, lug_boot, safety as [vhigh,low,4,more,small,med].
