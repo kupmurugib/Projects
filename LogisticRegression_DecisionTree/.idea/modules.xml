@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ANN_and_k-NN/.idea/ANN_and_k-NN.iml" filepath="$PROJECT_DIR$/../ANN_and_k-NN/.idea/ANN_and_k-NN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Deep Learning/.idea/Deep Learning.iml" filepath="$PROJECT_DIR$/../Deep Learning/.idea/Deep Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Information_Retrieval_NLP/.idea/Information_Retrieval_NLP.iml" filepath="$PROJECT_DIR$/../Information_Retrieval_NLP/.idea/Information_Retrieval_NLP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LogisticRegression_DecisionTree.iml" filepath="$PROJECT_DIR$/.idea/LogisticRegression_DecisionTree.iml" />
     </modules>
   </component>

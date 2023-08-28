@@ -4,5 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ANN_and_k-NN" />
+    <orderEntry type="module" module-name="Deep Learning" />
+    <orderEntry type="module" module-name="Information_Retrieval_NLP" />
   </component>
 </module>
